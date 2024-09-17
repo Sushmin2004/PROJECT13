@@ -18,15 +18,7 @@
     font-family: Ubuntu, sans-serif;
 }
 
-.number-wrapper{
-    display: flex;
-    position: absolute;
-    bottom: 1rem;  
-    right: 186px; 
-}
-
-.number-wrapper h1{
-    width: 270px;
+.img-wrapper h1{
     color: white;
     font-size: 2rem;
 }
@@ -51,3 +43,57 @@
 #heading2{
     font-size: 3em;
 }
+
+.image1{
+    position: relative;
+} 
+
+.image1 h1 {
+    position: absolute;
+    bottom: 25px;
+    left: 37px;
+}
+
+.image2{
+    position: relative;
+} 
+
+.image2 h1 {
+    position: absolute;
+    bottom: 25px;
+    left: 37px;
+}
+
+.image3{
+    position: relative;
+} 
+
+.image3 h1 {
+    position: absolute;
+    bottom: 25px;
+    left: 37px;
+}
+
+.image4{
+    position: relative;
+} 
+
+.image4 h1 {
+    position: absolute;
+    bottom: 25px;
+    left: 37px;
+} 
+
+
+/* .number-wrapper{
+    display: flex;
+    position: absolute;
+    bottom: 1rem;  
+    right: 186px; 
+}
+    
+.number-wrapper h1{
+    width: 270px;
+    color: white;
+    font-size: 2rem;
+}*/
