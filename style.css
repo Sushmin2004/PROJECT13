@@ -1,99 +1,99 @@
-.img-wrapper1 img {
-    height: 17rem;
-    width: 16rem;
-    border-radius: 40px;  
-    margin-right: 10px;   
-    filter: brightness(85%);
-}
-
-.img-wrapper1{
-    display: flex;
-    margin-top: 3rem;
-}
-
-.img-wrapper{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    font-family: Ubuntu, sans-serif;
-}
-
-.img-wrapper h1{
-    color: white;
-    font-size: 2rem;
-}
-
 .model-wrapper {
     text-align: center;
     margin-top: 65px;
 }
 
-.heading{
+.heading {
     font-family: Ubuntu, sans-serif;
 }
 
-#paragraph{
-    font-family: 'Open Sans',sans-serif;
+#paragraph {
+    font-family: 'Open Sans', sans-serif;
 }
 
-#heading1{
+#heading1 {
     font-size: 1.5rem;
 }
 
-#heading2{
+#heading2 {
     font-size: 3em;
 }
 
-.image1{
-    position: relative;
-} 
+.img-wrapper1{
+    display: flex;
+    justify-content: center;
+}
 
-.image1 h1 {
-    position: absolute;
-    bottom: 25px;
-    left: 37px;
+.image1,.image2,.image3,.image4{
+    height: 273px;
+    width: 235px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.333),rgba(0, 0, 0, 0.503)),url(image-1.jpeg);
+    background-repeat: round;
+    margin: 55px 10px 0px 0px;
+    border-radius: 20px;
+    position: relative;
 }
 
 .image2{
-    position: relative;
-} 
-
-.image2 h1 {
-    position: absolute;
-    bottom: 25px;
-    left: 37px;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.333),rgba(0, 0, 0, 0.503)),url(image-2\ \(1\).jpeg);
 }
 
 .image3{
-    position: relative;
-} 
-
-.image3 h1 {
-    position: absolute;
-    bottom: 25px;
-    left: 37px;
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.333),rgba(0, 0, 0, 0.503)),url(image-3.jpeg);
 }
 
 .image4{
-    position: relative;
-} 
-
-.image4 h1 {
-    position: absolute;
-    bottom: 25px;
-    left: 37px;
-} 
-
-
-/* .number-wrapper{
-    display: flex;
-    position: absolute;
-    bottom: 1rem;  
-    right: 186px; 
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.333),rgba(0, 0, 0, 0.503)),url(image-4.jpeg);
 }
-    
-.number-wrapper h1{
-    width: 270px;
+
+.no-1,.no-2,.no-3,.no-4{
+    position: absolute;
+    bottom: 22px;
+    left: 23px;
+    font-family: Ubuntu, sans-serif;
     color: white;
-    font-size: 2rem;
-}*/
+    font-size: larger;
+}
+
+@media (max-width: 576px) { 
+    .img-wrapper1{
+        display: block;
+    }
+
+    .image1,.image2,.image3,.image4{
+        margin: auto;
+        margin-bottom: 15px;
+        height: 279px;
+        width: 298px;
+    }
+
+    #heading1 {
+        font-size: 1rem;
+    }
+    
+    #heading2 {
+        font-size: 1.5em;
+    }
+ }
+
+@media (min-width: 576px) and (max-width: 768px) { 
+
+    .img-wrapper1{
+        display: block;
+    }
+
+    .image1,.image2,.image3,.image4{
+        margin: auto;
+        margin-bottom: 15px;
+        height: 282px;
+        width: 368px;
+    }
+
+    #heading1 {
+        font-size: 1.5rem;
+    }
+    
+    #heading2 {
+        font-size: 2em;
+    }
+}
